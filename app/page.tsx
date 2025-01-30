@@ -20,7 +20,7 @@ export default function Home() {
       <section className="flex-grow flex flex-col items-center justify-center text-center p-4">
         <AnimatedText text="Code India Hackathon" className="text-5xl md:text-7xl font-bold mb-4 text-blue-300" />
         <AnimatedText text="February 14th, 2024" className="text-2xl md:text-3xl mb-8 text-blue-200" />
-        <CountdownTimer targetDate="2024-02-14T00:00:00" />
+        <CountdownTimer targetDate="2025-02-14T00:00:00" />
       </section>
 
       <section className="p-8 bg-gray-800">
