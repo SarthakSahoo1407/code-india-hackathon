@@ -26,6 +26,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta property="og:image" content="https://srujanee.in/Srujanee-Meta.webp" />
+
+      </head>
       <body className={`${inter.className} bg-gray-900 text-white`}>{children}</body>
     </html>
   )
